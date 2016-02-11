@@ -58,11 +58,8 @@ public class ChangeBase  {
 	
 	
 	public static void main(String[] args){
-		//System.out.println(ChangeBase.toBase3(Integer.parseInt(args[0])));
-		//System.out.println(ChangeBase.toBase2(Integer.parseInt(args[0])));
-		//System.out.println(ChangeBase.toDecimal2(Long.parseLong (args[0])));
-		//System.out.println(toDecimal3(Long.parseLong(args[0])));
+		
 		System.out.println(ChangeBase.to3From2(Long.parseLong(args[0]))); 
-		//System.out.println(ChangeBase.to2From3(Long.parseLong(args[0])));
+		
 	}
 }
